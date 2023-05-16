@@ -1,0 +1,56 @@
+.table-responsive{
+	display: block;
+	width: 100%;
+	overflow-x: auto;
+}
+.scroll-to-top {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    display: none;
+    width: 2.75rem;
+    height: 2.75rem;
+    text-align: center;
+    color: #fff;
+    background: 
+    rgba(90,92,105,.5);
+    line-height: 46px;
+}
+.modal-dialog-centered {
+    min-height: calc(100% - 3.5rem);
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem 
+    rgba(0,0,0,.15) !important;
+}
+.form-total{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 0 .5rem 1rem 
+    rgba(0,0,0,.15) !important;
+    text-decoration: none;
+    background-color: #eee;
+    font-weight: 5px;
+    line-height: 1.1;
+    font-size: 22px;
+    font-family: inherit;
+    margin-bottom: 25px;
+}
+.total-harga{
+    /*margin-right: 15px;
+    font-family: inherit;*/
+    float: right;
+}
+.text-white{
+    color: white;
+}
+.btn-form{
+    height: 46px;
+    text-align: center;
+    vertical-align: middle;
+}
+.form-pass{
+    height: 46px;
+}
